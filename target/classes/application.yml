@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/issuetracker
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+
+app:
+  jwt:
+    # 32+ bytes secret is required for HS256
+    secret: "THIS_IS_A_DEMO_SECRET_CHANGE_IT_TO_A_LONG_RANDOM_SECRET_123456"
+    expirationMinutes: 120

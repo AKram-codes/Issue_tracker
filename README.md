@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Issue Tracker API (Spring Boot)
 
 A clean, ATS-friendly backend project you can push to GitHub.
@@ -55,3 +56,7 @@ Authorization: Bearer <token>
 
 ## Suggested GitHub repo name
 `issue-tracker-api-springboot`
+=======
+# Issue_tracker
+enterprise-style backend project with authentication + role-based access (real industry) and CRUD + pagination + validation  testing and API documentation
+>>>>>>> 9a681bb83724ba791cdee834471a3a1f352c080c
