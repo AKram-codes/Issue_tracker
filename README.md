@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 # Issue Tracker API (Spring Boot)
 
 A clean, ATS-friendly backend project you can push to GitHub.
 
 ## Features
+
 - JWT Authentication (Register/Login)
 - Roles: USER, ADMIN
 - Issue CRUD + Assignment + Status updates
@@ -14,6 +14,7 @@ A clean, ATS-friendly backend project you can push to GitHub.
 - Basic Tests (JUnit)
 
 ## Tech
+
 - Java 17
 - Spring Boot 3
 - Spring Security (JWT)
@@ -24,30 +25,38 @@ A clean, ATS-friendly backend project you can push to GitHub.
 ---
 
 ## Run locally (without Docker)
+
 1. Create a PostgreSQL DB and update `application.yml`.
 2. Run:
+
 ```bash
 mvn spring-boot:run
 ```
 
 ## Run with Docker
+
 ```bash
 docker compose up --build
 ```
 
 Swagger UI:
+
 - http://localhost:8080/swagger-ui/index.html
 
 ---
 
 ## API Quick Start
+
 ### Register
+
 `POST /api/auth/register`
 
 ### Login
+
 `POST /api/auth/login`
 
 Copy `accessToken` and use in Swagger:
+
 ```
 Authorization: Bearer <token>
 ```
@@ -55,8 +64,9 @@ Authorization: Bearer <token>
 ---
 
 ## Suggested GitHub repo name
-`issue-tracker-api-springboot`
-=======
+
+# `issue-tracker-api-springboot`
+
 # Issue_tracker
-enterprise-style backend project with authentication + role-based access (real industry) and CRUD + pagination + validation  testing and API documentation
->>>>>>> 9a681bb83724ba791cdee834471a3a1f352c080c
+
+enterprise-style backend project with authentication + role-based access (real industry) and CRUD + pagination + validation testing and API documentation
