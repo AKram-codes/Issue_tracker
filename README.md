@@ -1,17 +1,57 @@
-# Issue Tracker API (Spring Boot)
+# Issue Tracker API 🚀
 
-A clean, ATS-friendly backend project you can push to GitHub.
+A production-style **Issue Tracker Backend API** built using **Java + Spring Boot 3**, featuring **JWT authentication**, **role-based access control**, and **issue management** with filtering and pagination.  
+This project follows clean backend architecture practices and is designed to be scalable, secure, and easy to deploy.
 
-## Features
+---
 
-- JWT Authentication (Register/Login)
-- Roles: USER, ADMIN
-- Issue CRUD + Assignment + Status updates
-- Filters + Pagination + Sorting
-- Swagger UI (OpenAPI)
-- Validation + Global error handling
-- Docker + Docker Compose (App + PostgreSQL)
-- Basic Tests (JUnit)
+## ✨ Features
+
+- ✅ User Registration & Login (JWT Authentication)
+- ✅ Role-Based Access Control (**ADMIN**, **USER**)
+- ✅ Issue Management (Create / Update / Delete / View)
+- ✅ Issue Status & Priority handling
+- ✅ Pagination & Filtering Support
+- ✅ Swagger/OpenAPI Documentation
+- ✅ PostgreSQL Database Integration
+- ✅ Docker + Docker Compose Setup
+- ✅ Basic Unit Tests (JUnit)
+
+---
+
+## 🏗️ Tech Stack
+
+- **Language:** Java 17
+- **Framework:** Spring Boot 3
+- **Security:** Spring Security + JWT
+- **Database:** PostgreSQL
+- **ORM:** Spring Data JPA (Hibernate)
+- **API Docs:** Swagger / OpenAPI
+- **Containerization:** Docker, Docker Compose
+- **Testing:** JUnit 5
+
+---
+
+## 📂 Project Structure
+
+````bash
+issue-tracker/
+│── src/main/java/com/yourpackage/
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── dto/
+│   ├── entity/
+│   ├── security/
+│   └── config/
+│── src/main/resources/
+│   ├── application.yml
+│   └── db/migration/
+│── docker-compose.yml
+│── Dockerfile
+│── pom.xml
+└── README.md
+
 
 ## Tech
 
@@ -31,7 +71,7 @@ A clean, ATS-friendly backend project you can push to GitHub.
 
 ```bash
 mvn spring-boot:run
-```
+````
 
 ## Run with Docker
 
